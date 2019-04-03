@@ -1,0 +1,68 @@
+{
+    "dummy": {
+        "name": "Max Mustermann",
+        "stage": "Kinderstudio",
+        "studies": "BWL",
+        "quiz": {
+            "question": "Welche Farbe hat die Maus?",
+            "answers": [
+                {
+                    "answer": "Gelb",
+                    "correct": false
+                },
+                {
+                    "answer": "Orange",
+                    "correct": true
+                },
+                {
+                    "answer": "Grün",
+                    "correct": false
+                }
+            ]
+        }
+    },
+    "trn0": {
+        "name": "Max Mustermann",
+        "stage": "Kinderstudio",
+        "studies": "BWL",
+        "quiz": {
+            "question": "Welche Farbe hat die Maus?",
+            "answers": [
+                {
+                    "answer": "Gelb",
+                    "correct": false
+                },
+                {
+                    "answer": "Orange",
+                    "correct": true
+                },
+                {
+                    "answer": "Grün",
+                    "correct": false
+                }
+            ]
+        }
+    },
+    "trn1": {
+        "name": "Mirko Mustermann",
+        "stage": "Intendanz",
+        "studies": "VWL",
+        "quiz": {
+            "question": "Welche Farbe hat die Maus?",
+            "answers": [
+                {
+                    "answer": "Gelb",
+                    "correct": false
+                },
+                {
+                    "answer": "Orange",
+                    "correct": true
+                },
+                {
+                    "answer": "Grün",
+                    "correct": false
+                }
+            ]
+        }
+    }
+}

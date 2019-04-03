@@ -1,3 +1,6 @@
 node_modules
-vendor
-*.min.*
+/vendor
+/js/main.min.js
+/js/sb-admin-2.min.js
+/css/sb-admin-2.css
+/css/sb-admin-2.min.css

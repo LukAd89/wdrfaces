@@ -1,5 +1,4 @@
 node_modules
-/vendor
 /js/main.min.js
 /js/sb-admin-2.min.js
 /css/sb-admin-2.css

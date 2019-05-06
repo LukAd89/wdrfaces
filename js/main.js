@@ -34,12 +34,13 @@ async function initiateTrainees() {
 
   $(document).on("click", '#nav-link-quiz', async function () {
     await $('#page-content').load("sections/quiz.html", async () => {
-      await $.getScript("/js/quiz.js", async function( data, textStatus, jqxhr ) {
-        console.log( data ); // Data returned
-        console.log( textStatus ); // Success
-        console.log( jqxhr.status ); // 200
-        console.log( "Load was performed." );
-      });
+      await $.getScript("/js/quiz.js")
+      .done(function( script, textStatus ) {
+        console.log( textStatus );
+      })
+      .fail(function( jqxhr, settings, exception ) {
+        console.log( "Triggered ajaxError handler.", exception);
+    })
     });
   });
 

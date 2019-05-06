@@ -31,8 +31,11 @@ async function initiateTrainees() {
       await initiateTrainees();
     });
   });
-  $('#nav-link-charts').click(function () {
-    $('#page-content').load("sections/blank.html");
+
+  $(document).on("click", '#nav-link-quiz', async function () {
+    await $('#page-content').load("sections/quiz.html", async () => {
+
+    });
   });
 
   $('.nav-link:not([id])').click(function () {

@@ -34,7 +34,7 @@ async function initiateTrainees() {
 
   $(document).on("click", '#nav-link-quiz', async function () {
     await $('#page-content').load("sections/quiz.html", async () => {
-      $.getScript("/js/quiz.js"), async () =>{
+      await $.getScript("/js/quiz.js"), async () =>{
         await start();
       };
     });

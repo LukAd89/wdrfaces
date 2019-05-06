@@ -26,7 +26,7 @@ async function initiateTrainees() {
 (function ($) {
   //= require('../data/profiles.json');
   // $('#nav-link-tables').click(async function () {
-  $(document).on("click", '#nav-link-tables', async function () {
+  $(document).on("click", '#nav-link-trainees', async function () {
     await $('#page-content').load("sections/trainees.html", async () => {
       await initiateTrainees();
     });
@@ -34,7 +34,7 @@ async function initiateTrainees() {
 
   $(document).on("click", '#nav-link-quiz', async function () {
     await $('#page-content').load("sections/quiz.html", async () => {
-
+      console.log("quiz loaded");
     });
   });
 

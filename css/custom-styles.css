@@ -20,3 +20,7 @@
 .bg-wdr{
   background: #00345f;
 }
+
+#trn-back-button, .profile-card{
+  cursor: pointer;
+}

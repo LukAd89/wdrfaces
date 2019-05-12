@@ -133,7 +133,7 @@ function start() {
   aktFragenNr = 0;
   Punkte = 0;
   shuffle(Fragen);
-   
+  $("#ende").hide(); 
   writeHTML();
 };
 

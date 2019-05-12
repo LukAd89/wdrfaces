@@ -1,68 +1,72 @@
 {
-    "dummy": {
-        "name": "Max Mustermann",
-        "stage": "Kinderstudio",
-        "studies": "BWL",
-        "quiz": {
-            "question": "Welche Farbe hat die Maus?",
-            "answers": [
-                {
-                    "answer": "Gelb",
-                    "correct": false
-                },
-                {
-                    "answer": "Orange",
-                    "correct": true
-                },
-                {
-                    "answer": "Grün",
-                    "correct": false
-                }
-            ]
-        }
-    },
     "trn0": {
-        "name": "Max Mustermann",
+        "name": "Anne",
         "stage": "Kinderstudio",
         "studies": "BWL",
-        "quiz": {
-            "question": "Welche Farbe hat die Maus?",
-            "answers": [
-                {
-                    "answer": "Gelb",
-                    "correct": false
-                },
-                {
-                    "answer": "Orange",
-                    "correct": true
-                },
-                {
-                    "answer": "Grün",
-                    "correct": false
-                }
-            ]
-        }
+        "photo": "/img/profiles/placeholder.jpg",
+        "video": "https://youtu.be/T2L1V8LVtas"
     },
     "trn1": {
-        "name": "Mirko Mustermann",
+        "name": "Annika",
         "stage": "Intendanz",
         "studies": "VWL",
-        "quiz": {
-            "question": "Welche Farbe hat die Maus?",
-            "answers": [
-                {
-                    "answer": "Gelb",
-                    "correct": false
-                },
-                {
-                    "answer": "Orange",
-                    "correct": true
-                },
-                {
-                    "answer": "Grün",
-                    "correct": false
-                }
-            ]
-        }
+        "photo": "/img/profiles/placeholder.jpg",
+        "video": "https://youtu.be/SKNTbGhSXM0"
+    },
+    "trn2": {
+        "name": "Benjamin",
+        "stage": "Kinderstudio",
+        "studies": "BWL",
+        "photo": "/img/profiles/placeholder.jpg",
+        "video": "https://youtu.be/qyetS5Acc9o"
+    },
+    "trn3": {
+        "name": "Jasmin",
+        "stage": "Intendanz",
+        "studies": "VWL",
+        "photo": "/img/profiles/placeholder.jpg",
+        "video": "https://youtu.be/L0rku4ajzHI"
+    },
+    "trn4": {
+        "name": "Laura",
+        "stage": "Kinderstudio",
+        "studies": "BWL",
+        "photo": "/img/profiles/placeholder.jpg",
+        "video": "https://youtu.be/eBPVQg8o6h0"
+    },
+    "trn5": {
+        "name": "Lukas",
+        "stage": "Intendanz",
+        "studies": "VWL",
+        "photo": "/img/profiles/placeholder.jpg",
+        "video": "https://youtu.be/LANAfDJKGo4"
+    },
+    "trn6": {
+        "name": "Manuel",
+        "stage": "Kinderstudio",
+        "studies": "BWL",
+        "photo": "/img/profiles/placeholder.jpg",
+        "video": "https://youtu.be/_SW__ZDzIFA"
+    },
+    "trn7": {
+        "name": "Paula",
+        "stage": "Intendanz",
+        "studies": "VWL",
+        "photo": "/img/profiles/placeholder.jpg",
+        "video": "https://youtu.be/HJrEpduaQec"
+    },
+    "trn8": {
+        "name": "Pia",
+        "stage": "Kinderstudio",
+        "studies": "BWL",
+        "photo": "/img/profiles/placeholder.jpg",
+        "video": "https://youtu.be/35sM0q5TXjo"
+    },
+    "trn9": {
+        "name": "Simon",
+        "stage": "Intendanz",
+        "studies": "VWL",
+        "photo": "/img/profiles/placeholder.jpg",
+        "video": "https://youtu.be/698YgLJCdtg"
     }
 }

@@ -17,13 +17,11 @@ async function initiateProfile(id) {
 
 async function initiateTrainees() {
   let profile_data = await getProfileData(-1);
-  console.log(profile_data);
   for (let i = 0; i < Object.keys(profile_data).length; i++) {
     let trainee_id = "trn" + i;
     let clone = await $($("#profileCardTemplate").html());
     await $('.trn-name', clone).text(profile_data[trainee_id].name);
     await $('.profile-card', clone).attr("data-profileid", trainee_id);
-    console.log(profile_data[trainee_id].photo)
     await $('.card-img', clone).attr("src", profile_data[trainee_id].photo);
     await $('.trow-1').append(clone);
   }

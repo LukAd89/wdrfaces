@@ -9,10 +9,28 @@ function getProfileData(id) {
 
 async function initiateProfile(id) {
   let profile_data = await getProfileData(id);
-  await $('.card-header').text(profile_data.name);
+  //await $('.card-header').text(profile_data.name);
   $('.trn-name').text(profile_data.name);
   $('.trn-studies').text(profile_data.studies);
   $('.trn-stage').text(profile_data.stage);
+  
+  //zusätzlich für profile.html
+ 
+  $('.trn-alter').text(profile_data.alter);
+  $('.trn-dauer').text(profile_data.tdauer);
+  $('.trn-werdegang').text(profile_data.werdegang);
+  $('.trn-mail').text(profile_data.mail);
+  $('.trn-antw1').text(profile_data.antw1);
+  $('.trn-antw2').text(profile_data.antw2);
+  $('.trn-antw3').text(profile_data.antw3);
+  $('.trn-antw4').text(profile_data.antw4);
+  $('.trn-antw5').text(profile_data.antw5);
+  $('.trn-antw6').text(profile_data.antw6);
+  $('.trn-antw7').text(profile_data.antw7);
+  $('.trn-ptext').text(profile_data.ptext);
+  
+  await $('.trn-picture').attr("src", profile_data.photosm);
+  await $('.trn-video').attr("src", profile_data.video);
 }
 
 async function initiateTrainees() {

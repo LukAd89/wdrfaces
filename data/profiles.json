@@ -3,70 +3,80 @@
         "name": "Anne",
         "stage": "Kinderstudio",
         "studies": "BWL",
-        "photo": "./img/profiles/Anne_Plakat_Fin.jpg",
+        "photo": "./img/profiles/Anne_Plakat_Fin_k.jpg",
+        "photosm": "./img/profiles/Anne_Plakat_Fin_k_sm.jpg",
         "video": "https://youtu.be/T2L1V8LVtas"
     },
     "trn1": {
         "name": "Annika",
         "stage": "Intendanz",
         "studies": "VWL",
-        "photo": "./img/profiles/Annika_Plakat_Fin.jpg",
+        "photo": "./img/profiles/Annika_Plakat_Fin_k.jpg",
+        "photosm": "./img/profiles/Anne_Plakat_Fin_k_sm.jpg",
         "video": "https://youtu.be/SKNTbGhSXM0"
     },
     "trn2": {
         "name": "Benjamin",
         "stage": "Kinderstudio",
         "studies": "BWL",
-        "photo": "./img/profiles/Benjamin_Plakat_Fin.jpg",
+        "photo": "./img/profiles/Benjamin_Plakat_Fin_k.jpg",
+        "photosm": "./img/profiles/Anne_Plakat_Fin_k_sm.jpg",
         "video": "https://youtu.be/qyetS5Acc9o"
     },
     "trn3": {
         "name": "Jasmin",
         "stage": "Intendanz",
         "studies": "VWL",
-        "photo": "./img/profiles/Jasmin_Plakat_Fin.jpg",
+        "photo": "./img/profiles/Jasmin_Plakat_Fin_k.jpg",
+        "photosm": "./img/profiles/Anne_Plakat_Fin_k_sm.jpg",
         "video": "https://youtu.be/L0rku4ajzHI"
     },
     "trn4": {
         "name": "Laura",
         "stage": "Kinderstudio",
         "studies": "BWL",
-        "photo": "./img/profiles/Laura_Plakat_Fin.jpg",
+        "photo": "./img/profiles/Laura_Plakat_Fin_k.jpg",
+        "photosm": "./img/profiles/Anne_Plakat_Fin_k_sm.jpg",
         "video": "https://youtu.be/eBPVQg8o6h0"
     },
     "trn5": {
         "name": "Lukas",
         "stage": "Intendanz",
         "studies": "VWL",
-        "photo": "./img/profiles/Lukas_Plakat_Fin.jpg",
+        "photo": "./img/profiles/Lukas_Plakat_Fin_k.jpg",
+        "photosm": "./img/profiles/Anne_Plakat_Fin_k_sm.jpg",
         "video": "https://youtu.be/LANAfDJKGo4"
     },
     "trn6": {
         "name": "Manuel",
         "stage": "Kinderstudio",
         "studies": "BWL",
-        "photo": "./img/profiles/Manuel_Plakat_Fin.jpg",
+        "photo": "./img/profiles/Manuel_Plakat_Fin_k.jpg",
+        "photosm": "./img/profiles/Anne_Plakat_Fin_k_sm.jpg",
         "video": "https://youtu.be/_SW__ZDzIFA"
     },
     "trn7": {
         "name": "Paula",
         "stage": "Intendanz",
         "studies": "VWL",
-        "photo": "./img/profiles/Paula_Plakat_Fin.jpg",
+        "photo": "./img/profiles/Paula_Plakat_Fin_k.jpg",
+        "photosm": "./img/profiles/Anne_Plakat_Fin_k_sm.jpg",
         "video": "https://youtu.be/HJrEpduaQec"
     },
     "trn8": {
         "name": "Pia",
         "stage": "Kinderstudio",
         "studies": "BWL",
-        "photo": "./img/profiles/Pia_Plakat_Fin.jpg",
+        "photo": "./img/profiles/Pia_Plakat_Fin_k.jpg",
+        "photosm": "./img/profiles/Anne_Plakat_Fin_k_sm.jpg",
         "video": "https://youtu.be/35sM0q5TXjo"
     },
     "trn9": {
         "name": "Simon",
         "stage": "Intendanz",
         "studies": "VWL",
-        "photo": "./img/profiles/Simon_Plakat_Fin.jpg",
+        "photo": "./img/profiles/Simon_Plakat_Fin_k.jpg",
+        "photosm": "./img/profiles/Anne_Plakat_Fin_k_sm.jpg",
         "video": "https://youtu.be/698YgLJCdtg"
     }
 }

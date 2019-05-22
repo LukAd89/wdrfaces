@@ -114,16 +114,6 @@ var Fragen = [
     }, 
     "Loesung":"1240",
 	"Autor": "Laura"
-  },{
-    "id":"11",
-    "Frage" : "Wie viele g\u00fcltige Kostenstellen gibt es in der DPT?",
-    "Antwort" : {
-      "A":"300",
-      "B":"200",
-      "C":"100",
-    }, 
-    "Loesung":"200",
-	"Autor": "Aboud"
   }
 ];
 
@@ -132,6 +122,7 @@ start();
 function start() {
   aktFragenNr = 0;
   Punkte = 0;
+  gegebeneAntwort = "";
   shuffle(Fragen);
   $("#ende").hide(); 
   writeHTML();
@@ -249,8 +240,12 @@ $("#answer_c_btn").click(function() {
 });
 
 //Antworten
-$("#answer_commit_btn").click(function() { 
+$("#answer_commit_btn").click(function() {
+  if (gegebeneAntwort == "") {
+	  alert("Keine Antwort markiert!");
+  } else {
   pruefeAntwort();
+  }
 });
 
 //Antwort pruefen
@@ -284,6 +279,7 @@ function ausblendenButtons() {
 
 //N�chste Frage laden
 function zeigenaechsteFrage() {
+  gegebeneAntwort = "";
   aktFragenNr++;
   $("#question").fadeTo();
   $("#answer_a_btn").fadeTo();

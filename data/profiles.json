@@ -5,7 +5,7 @@
         "studies": "BWL",
         "photo": "./img/profiles/Anne_Plakat_Fin_k.jpg",
         "photosm": "./img/profiles/Anne_Plakat_Fin_k_sm.jpg",
-        "video": "https://youtu.be/T2L1V8LVtas",
+        "video": "http://www.youtube.com/embed/T2L1V8LVtas",
         "mail": "anne1213@wedr",
         "antw1": "",
         "antw2": "",
@@ -14,7 +14,7 @@
         "antw5": "",
         "antw6": "huhu",
         "antw7": "",
-        "ptext": "klsdfjösfldkjas föwfwe fiöfjlswf kjewföw fjewföwf"
+        "ptext": "klsdfjÃ¶sfldkjas fÃ¶wfwe fiÃ¶fjlswf kjewfÃ¶w fjewfÃ¶wf"
     },
     "trn1": {
         "name": "Annika",
@@ -22,7 +22,7 @@
         "studies": "VWL",
         "photo": "./img/profiles/Annika_Plakat_Fin_k.jpg",
         "photosm": "./img/profiles/Anne_Plakat_Fin_k_sm.jpg",
-        "video": "https://youtu.be/SKNTbGhSXM0"
+        "video": "http://www.youtube.com/embed/SKNTbGhSXM0"
     },
     "trn2": {
         "name": "Benjamin",
@@ -30,7 +30,7 @@
         "studies": "BWL",
         "photo": "./img/profiles/Benjamin_Plakat_Fin_k.jpg",
         "photosm": "./img/profiles/Anne_Plakat_Fin_k_sm.jpg",
-        "video": "https://youtu.be/qyetS5Acc9o"
+        "video": "http://www.youtube.com/embed/qyetS5Acc9o"
     },
     "trn3": {
         "name": "Jasmin",
@@ -38,7 +38,7 @@
         "studies": "VWL",
         "photo": "./img/profiles/Jasmin_Plakat_Fin_k.jpg",
         "photosm": "./img/profiles/Anne_Plakat_Fin_k_sm.jpg",
-        "video": "https://youtu.be/L0rku4ajzHI"
+        "video": "http://www.youtube.com/embed/L0rku4ajzHI"
     },
     "trn4": {
         "name": "Laura",
@@ -46,7 +46,7 @@
         "studies": "BWL",
         "photo": "./img/profiles/Laura_Plakat_Fin_k.jpg",
         "photosm": "./img/profiles/Anne_Plakat_Fin_k_sm.jpg",
-        "video": "https://youtu.be/eBPVQg8o6h0"
+        "video": "http://www.youtube.com/embed/eBPVQg8o6h0"
     },
     "trn5": {
         "name": "Lukas",
@@ -54,7 +54,7 @@
         "studies": "VWL",
         "photo": "./img/profiles/Lukas_Plakat_Fin_k.jpg",
         "photosm": "./img/profiles/Anne_Plakat_Fin_k_sm.jpg",
-        "video": "https://youtu.be/LANAfDJKGo4"
+        "video": "http://www.youtube.com/embed/LANAfDJKGo4"
     },
     "trn6": {
         "name": "Manuel",
@@ -62,7 +62,7 @@
         "studies": "BWL",
         "photo": "./img/profiles/Manuel_Plakat_Fin_k.jpg",
         "photosm": "./img/profiles/Anne_Plakat_Fin_k_sm.jpg",
-        "video": "https://youtu.be/_SW__ZDzIFA"
+        "video": "http://www.youtube.com/embed/_SW__ZDzIFA"
     },
     "trn7": {
         "name": "Paula",
@@ -70,7 +70,7 @@
         "studies": "VWL",
         "photo": "./img/profiles/Paula_Plakat_Fin_k.jpg",
         "photosm": "./img/profiles/Anne_Plakat_Fin_k_sm.jpg",
-        "video": "https://youtu.be/HJrEpduaQec"
+        "video": "http://www.youtube.com/embed/HJrEpduaQec"
     },
     "trn8": {
         "name": "Pia",
@@ -78,7 +78,7 @@
         "studies": "BWL",
         "photo": "./img/profiles/Pia_Plakat_Fin_k.jpg",
         "photosm": "./img/profiles/Anne_Plakat_Fin_k_sm.jpg",
-        "video": "https://youtu.be/35sM0q5TXjo"
+        "video": "http://www.youtube.com/embed/35sM0q5TXjo"
     },
     "trn9": {
         "name": "Simon",
@@ -86,6 +86,6 @@
         "studies": "VWL",
         "photo": "./img/profiles/Simon_Plakat_Fin_k.jpg",
         "photosm": "./img/profiles/Anne_Plakat_Fin_k_sm.jpg",
-        "video": "https://youtu.be/698YgLJCdtg"
+        "video": "http://www.youtube.com/embed/698YgLJCdtg"
     }
 }

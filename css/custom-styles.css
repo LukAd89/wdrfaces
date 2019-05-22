@@ -1,3 +1,8 @@
+.card-img{
+	opacity: 0.2
+	filter: alpha(opacity=50);
+}
+
 .profile-text{
     padding-top: 100px;
     padding-right: 0rem;

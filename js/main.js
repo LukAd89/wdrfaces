@@ -1,7 +1,7 @@
 function getProfileData(id) {
-  return new Promise(function (resolve, reject) {
-    $.getJSON('data/profiles.json', function(data) {
-      if(id == -1) resolve(data);
+  return new Promise((resolve, reject) => {
+    $.getJSON('data/profiles.json', data => {
+      if (id == -1) resolve(data);
       resolve(data[id]);
     });
   });
@@ -13,9 +13,9 @@ async function initiateProfile(id) {
   $('.trn-name').text(profile_data.name);
   $('.trn-studies').text(profile_data.studies);
   $('.trn-stage').text(profile_data.stage);
-  
+
   //zusätzlich für profile.html
- 
+
   $('.trn-alter').text(profile_data.alter);
   $('.trn-dauer').text(profile_data.tdauer);
   $('.trn-werdegang').text(profile_data.werdegang);
@@ -28,7 +28,7 @@ async function initiateProfile(id) {
   $('.trn-antw6').text(profile_data.antw6);
   $('.trn-antw7').text(profile_data.antw7);
   $('.trn-ptext').text(profile_data.ptext);
-  
+
   await $('.trn-picture').attr("src", profile_data.photosm);
   await $('.trn-video').attr("src", profile_data.video);
 }
@@ -45,19 +45,18 @@ async function initiateTrainees() {
   }
 }
 
-// (function ($) {
-$( document ).ready(function() {
+(function ($) {
   //= require('../data/profiles.json');
   // $('#nav-link-tables').click(async function () {
 
   $(document).on("click", '#nav-link-start', async function () {
-    await $('#page-content').load("sections/start.html", async function() {});
+    await $('#page-content').load("sections/start.html", async () => { });
     $("#accordionSidebar .nav-item.active").removeClass("active");
     $("#nav-link-start").parent(".nav-item").addClass("active");
   });
 
   $(document).on("click", '#nav-link-trainees', async function () {
-    await $('#page-content').load("sections/trainees.html", async function() {
+    await $('#page-content').load("sections/trainees.html", async () => {
       await initiateTrainees();
     });
     $("#accordionSidebar .nav-item.active").removeClass("active");
@@ -65,7 +64,7 @@ $( document ).ready(function() {
   });
 
   $(document).on("click", '#nav-link-quiz', async function () {
-    await $('#page-content').load("sections/quiz.html", async function() {
+    await $('#page-content').load("sections/quiz.html", async () => {
       await $.getScript("js/quiz.js")
         .done(function (script, textStatus) {
           console.log(textStatus);
@@ -83,20 +82,20 @@ $( document ).ready(function() {
   });
 
   $(document).on("click", ".profile-card", async function () {
-    await $('#page-content').load("sections/profile.html", async function() {
+    await $('#page-content').load("sections/profile.html", async () => {
       initiateProfile($(this).data("profileid"));
     });
   });
 
   $(document).on("click", '#trn-back-button', async function () {
-    await $('#page-content').load("sections/trainees.html", async function() {
+    await $('#page-content').load("sections/trainees.html", async () => {
       await initiateTrainees();
     });
     $("#accordionSidebar .nav-item.active").removeClass("active");
     $("#nav-link-trainees").parent(".nav-item").addClass("active");
   });
-
-  // $( document ).ready(function() {
-  $('#page-content').load("sections/start.html", async function() {});
-// })(jQuery);
-});
+  
+  $(document).ready(function () {
+    $('#page-content').load("sections/start.html", async () => { });
+  });
+})(jQuery);

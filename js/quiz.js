@@ -149,7 +149,7 @@ function writeHTML() {
   
   //Bilder tauschen
   var bild = document.getElementById("potrait");
-  bild.src = "img/quiz/"+aktFrage.Autor+".png";
+  bild.src = "./img/quiz/"+aktFrage.Autor+".png";
   $("#autor").text(aktFrage.Autor+" fragt:");
   
   //Zufallsanordnung der Antworten

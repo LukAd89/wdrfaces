@@ -1,54 +1,51 @@
-	<div class="container">
-		<!--<h1>Traineequiz</h1>-->
-		<h1 class="h3 mb-2 text-gray-800">Quiz</h1>
+<!--<h1>Traineequiz</h1>-->
+<h1 class="h3 mb-2 text-gray-800">Quiz</h1>
+<div class="row">
+	<!--Jumbotron f�r Frage-->
+	<div id="question" class="jumbotron">
 		<div class="row">
-			<!--Jumbotron f�r Frage-->
-			<div id="question" class="jumbotron">
-				<div class="container">
-				  <div class="row">
-					<div class="col-sm-6 col-lg-2">
-						<img id="potrait" class="img-rounded img-fluid">
-					</div>
-					<div class="col-sm-6 col-lg-10">
-						<h6>Frage <span id="qno"></span></h6><br>
-						<h5><span id="autor"></span></h5>
-						<p id="question_text" class="font-italic" style="white-space: normal;"></p>
-					</div>
-				  </div>
-				</div>
+			<div class="col-sm-6 col-lg-2">
+				<img id="potrait" class="img-rounded img-fluid">
+			</div>
+			<div class="col-sm-6 col-lg-10">
+				<h6>Frage <span id="qno"></span></h6><br>
+				<h5><span id="autor"></span></h5>
+				<p id="question_text" class="font-italic" style="white-space: normal;"></p>
 			</div>
 		</div>
-		<div class="row">
-			<!--Layout f�r Antworten-->
-				<div class="btn-lg btn-block">
-					<!--Antwort-Buttons-->
-					<p class="text-sm-left">
-					   <button id="answer_a_btn" class="answer btn btn-default btn-lg btn-block border" role="button">
-						   <span id="answer_a" style="white-space: normal;"></span>
-					   </button>
-					   <button id="answer_b_btn" class="answer btn btn-default btn-lg btn-block border" role="button">
-						   <span id="answer_b" style="white-space: normal;"></span>
-					   </button>
-					   <button id="answer_c_btn" class="answer btn btn-default btn-lg btn-block border col-lg-12" role="button" >
-						   <span id="answer_c" style="white-space: normal;"></span>
-					   </button>
-					</p>
-					<!--Antwort Button-->
-					<p>
-					  <button id="answer_commit_btn" class="btn btn-primary btn-lg btn-block" role="button">
-						 <span id="commit_text">Antworten</span>
-					  </button>
-					</p>
-				</div>
-		</div>
-        
-        <!--Jumbotron f�r Ende-->
-        <div id="ende" class="jumbotron quiz_end">
-              <p>Richtige Antworten: <span id="endpoints">0</span></p>
-			  <h3>Damit hast den Rang: </h3>
-              <h1 id="Rang"></h1>
-              <p><button id="neustart_btn" class="restart btn btn-primary btn-lg" role="button">Nochmal starten</button></p>
-        </div>
-    </div>
-    <!-- Binde alle kompilierten Plugins zusammen ein (wie hier unten) oder such dir einzelne Dateien nach Bedarf aus -->
-	<!-- <script src="/js/quiz.min.js"></script> -->
+	</div>
+</div>
+<div class="row">
+	<!--Layout f�r Antworten-->
+	<div class="btn-lg btn-block">
+		<!--Antwort-Buttons-->
+		<p class="text-sm-left">
+			<button id="answer_a_btn" class="answer btn btn-default btn-lg btn-block border" role="button">
+				<span id="answer_a" style="white-space: normal;"></span>
+			</button>
+			<button id="answer_b_btn" class="answer btn btn-default btn-lg btn-block border" role="button">
+				<span id="answer_b" style="white-space: normal;"></span>
+			</button>
+			<button id="answer_c_btn" class="answer btn btn-default btn-lg btn-block border col-lg-12" role="button">
+				<span id="answer_c" style="white-space: normal;"></span>
+			</button>
+		</p>
+		<!--Antwort Button-->
+		<p>
+			<button id="answer_commit_btn" class="btn btn-primary btn-lg btn-block" role="button">
+				<span id="commit_text">Antworten</span>
+			</button>
+		</p>
+	</div>
+</div>
+
+<!--Jumbotron f�r Ende-->
+<div id="ende" class="jumbotron quiz_end">
+	<p>Richtige Antworten: <span id="endpoints">0</span></p>
+	<h3>Damit hast den Rang: </h3>
+	<h1 id="Rang"></h1>
+	<p><button id="neustart_btn" class="restart btn btn-primary btn-lg" role="button">Nochmal starten</button></p>
+</div>
+
+<!-- Binde alle kompilierten Plugins zusammen ein (wie hier unten) oder such dir einzelne Dateien nach Bedarf aus -->
+<!-- <script src="/js/quiz.min.js"></script> -->

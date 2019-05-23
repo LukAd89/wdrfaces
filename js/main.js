@@ -1,6 +1,6 @@
 function getProfileData(id) {
-  return new Promise((resolve, reject) => {
-    $.getJSON('data/profiles.json', data => {
+  return new Promise(function (resolve, reject) {
+    $.getJSON('data/profiles.json', function(data) {
       if(id == -1) resolve(data);
       resolve(data[id]);
     });
@@ -45,18 +45,19 @@ async function initiateTrainees() {
   }
 }
 
-(function ($) {
+// (function ($) {
+$( document ).ready(function() {
   //= require('../data/profiles.json');
   // $('#nav-link-tables').click(async function () {
 
   $(document).on("click", '#nav-link-start', async function () {
-    await $('#page-content').load("sections/start.html", async () => {});
+    await $('#page-content').load("sections/start.html", async function() {});
     $("#accordionSidebar .nav-item.active").removeClass("active");
     $("#nav-link-start").parent(".nav-item").addClass("active");
   });
 
   $(document).on("click", '#nav-link-trainees', async function () {
-    await $('#page-content').load("sections/trainees.html", async () => {
+    await $('#page-content').load("sections/trainees.html", async function() {
       await initiateTrainees();
     });
     $("#accordionSidebar .nav-item.active").removeClass("active");
@@ -64,7 +65,7 @@ async function initiateTrainees() {
   });
 
   $(document).on("click", '#nav-link-quiz', async function () {
-    await $('#page-content').load("sections/quiz.html", async () => {
+    await $('#page-content').load("sections/quiz.html", async function() {
       await $.getScript("js/quiz.js")
         .done(function (script, textStatus) {
           console.log(textStatus);
@@ -82,20 +83,20 @@ async function initiateTrainees() {
   });
 
   $(document).on("click", ".profile-card", async function () {
-    await $('#page-content').load("sections/profile.html", async () => {
+    await $('#page-content').load("sections/profile.html", async function() {
       initiateProfile($(this).data("profileid"));
     });
   });
 
   $(document).on("click", '#trn-back-button', async function () {
-    await $('#page-content').load("sections/trainees.html", async () => {
+    await $('#page-content').load("sections/trainees.html", async function() {
       await initiateTrainees();
     });
     $("#accordionSidebar .nav-item.active").removeClass("active");
     $("#nav-link-trainees").parent(".nav-item").addClass("active");
   });
 
-  $( document ).ready(function() {
-    $('#page-content').load("sections/start.html", async () => {});
+  // $( document ).ready(function() {
+  $('#page-content').load("sections/start.html", async function() {});
+// })(jQuery);
 });
-})(jQuery);

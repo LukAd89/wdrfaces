@@ -9,7 +9,7 @@
         "mail": "anne.gesing@wdr.de",
 		"photo": "./img/profiles/Anne_Plakat_Fin_k.jpg",
         "photosm": "./img/profiles/Anne_Plakat_Fin_k_sm.jpg",
-        "video": "http://www.youtube.com/embed/T2L1V8LVtas?loop=1&showinfo=0&controls=0&rel=0",
+        "video": "https://www.youtube.com/embed/T2L1V8LVtas?loop=1&showinfo=0&controls=0&rel=0",
 		"ptext": "klsdfjösfldkjas föwfwe fiöfjlswf kjewföw fjewföwf"
     },
     "trn1": {
@@ -22,7 +22,7 @@
 		"mail": "annika.lange@wdr.de",
         "photo": "./img/profiles/Annika_Plakat_Fin_k.jpg",
         "photosm": "./img/profiles/Anne_Plakat_Fin_k_sm.jpg",
-        "video": "http://www.youtube.com/embed/SKNTbGhSXM0?loop=1&showinfo=0&controls=0&rel=0",
+        "video": "https://www.youtube.com/embed/SKNTbGhSXM0?loop=1&showinfo=0&controls=0&rel=0",
 		"ptext": ""
     },
     "trn2": {
@@ -35,7 +35,7 @@
 		"mail": "benjamin.hofmann@wdr.de",
         "photo": "./img/profiles/Benjamin_Plakat_Fin_k.jpg",
         "photosm": "./img/profiles/Anne_Plakat_Fin_k_sm.jpg",
-        "video": "http://www.youtube.com/embed/qyetS5Acc9o?loop=1&showinfo=0&controls=0&rel=0",
+        "video": "https://www.youtube.com/embed/qyetS5Acc9o?loop=1&showinfo=0&controls=0&rel=0",
 		"ptext": ""
     },
     "trn3": {
@@ -48,7 +48,7 @@
 		"mail": "jasmin.seibt@wdr.de",
         "photo": "./img/profiles/Jasmin_Plakat_Fin_k.jpg",
         "photosm": "./img/profiles/Anne_Plakat_Fin_k_sm.jpg",
-        "video": "http://www.youtube.com/embed/L0rku4ajzHI?loop=1&showinfo=0&controls=0&rel=0",
+        "video": "https://www.youtube.com/embed/L0rku4ajzHI?loop=1&showinfo=0&controls=0&rel=0",
 		"ptext": ""
     },
     "trn4": {
@@ -61,7 +61,7 @@
 		"mail": "laura.bauer@wdr.de",
         "photo": "./img/profiles/Laura_Plakat_Fin_k.jpg",
         "photosm": "./img/profiles/Anne_Plakat_Fin_k_sm.jpg",
-        "video": "http://www.youtube.com/embed/eBPVQg8o6h0?loop=1&showinfo=0&controls=0&rel=0",
+        "video": "https://www.youtube.com/embed/eBPVQg8o6h0?loop=1&showinfo=0&controls=0&rel=0",
 		"ptext": ""
     },
     "trn5": {
@@ -74,7 +74,7 @@
 		"mail": "lukas.adrian@wdr.de",
         "photo": "./img/profiles/Lukas_Plakat_Fin_k.jpg",
         "photosm": "./img/profiles/Anne_Plakat_Fin_k_sm.jpg",
-        "video": "http://www.youtube.com/embed/LANAfDJKGo4?loop=1&showinfo=0&controls=0&rel=0",
+        "video": "https://www.youtube.com/embed/LANAfDJKGo4?loop=1&showinfo=0&controls=0&rel=0",
 		"ptext": ""
     },
     "trn6": {
@@ -87,7 +87,7 @@
 		"mail": "manuel.mertens@wdr.de",
         "photo": "./img/profiles/Manuel_Plakat_Fin_k.jpg",
         "photosm": "./img/profiles/Anne_Plakat_Fin_k_sm.jpg",
-        "video": "http://www.youtube.com/embed/_SW__ZDzIFA?loop=1&showinfo=0&controls=0&rel=0",
+        "video": "https://www.youtube.com/embed/_SW__ZDzIFA?loop=1&showinfo=0&controls=0&rel=0",
 		"ptext" : ""
     },
     "trn7": {
@@ -100,7 +100,7 @@
 		"mail": "paula.rudnik@gmx.de",
         "photo": "./img/profiles/Paula_Plakat_Fin_k.jpg",
         "photosm": "./img/profiles/Anne_Plakat_Fin_k_sm.jpg",
-        "video": "http://www.youtube.com/embed/HJrEpduaQec?loop=1&showinfo=0&controls=0&rel=0",
+        "video": "https://www.youtube.com/embed/HJrEpduaQec?loop=1&showinfo=0&controls=0&rel=0",
 		"ptext": ""
     },
     "trn8": {
@@ -113,7 +113,7 @@
 		"mail": "pia.krauss@wdr.de",
         "photo": "./img/profiles/Pia_Plakat_Fin_k.jpg",
         "photosm": "./img/profiles/Anne_Plakat_Fin_k_sm.jpg",
-        "video": "http://www.youtube.com/embed/35sM0q5TXjo?loop=1&showinfo=0&controls=0&rel=0",
+        "video": "https://www.youtube.com/embed/35sM0q5TXjo?loop=1&showinfo=0&controls=0&rel=0",
 		"ptext": ""
     },
     "trn9": {
@@ -126,7 +126,7 @@
 		"mail": "simon.voigt@wdr.de",
         "photo": "./img/profiles/Simon_Plakat_Fin_k.jpg",
         "photosm": "./img/profiles/Anne_Plakat_Fin_k_sm.jpg",
-        "video": "http://www.youtube.com/embed/698YgLJCdtg?loop=1&showinfo=0&controls=0&rel=0",
+        "video": "https://www.youtube.com/embed/698YgLJCdtg?loop=1&showinfo=0&controls=0&rel=0",
 		"ptext": ""
     }
 }

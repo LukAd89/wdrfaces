@@ -22,7 +22,7 @@ var Fragen = [
       "B":"500 qm",
       "C":"1200 qm",
     }, 
-    "Loesung":"Programmieren",
+    "Loesung":"1700 qm",
 	"Autor": "Manuel"
   },{
     "id":"2",

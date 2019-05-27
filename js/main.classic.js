@@ -20,8 +20,8 @@ function initiateProfile(id) {
 }
 
 function initiateTrainees() {
+  $('.content-title').text("Die Trainees");
   var profile_data;
-
   $.getJSON('data/profiles.json', function (data) {
     profile_data = data;
     for (var i = 0; i < Object.keys(profile_data).length; i++) {
@@ -48,6 +48,7 @@ $(document).ready(function () {
       crossDomain: true,
       cache: false,
       success: function(html){
+        $('.content-title').text("Trainees zeigen Gesicht");
         $('#page-content').html(html);
         console.log("jo");
       },
@@ -69,6 +70,7 @@ $(document).ready(function () {
 
   $(document).on("click", '#nav-link-quiz', function () {
     $('#page-content').load("sections/quiz.html", function () {
+      $('.content-title').text("Quiz");
       $.getScript("js/quiz.js")
         .done(function (script, textStatus) {
           console.log(textStatus);
@@ -94,6 +96,7 @@ $(document).ready(function () {
 
   $(document).on("click", '#trn-back-button', function () {
     $('#page-content').load("sections/trainees.html", function () {
+      $('.content-title').text("");
       initiateTrainees();
     });
     $("#accordionSidebar .nav-item.active").removeClass("active");

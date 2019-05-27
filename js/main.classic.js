@@ -90,13 +90,14 @@ $(document).ready(function () {
   $(document).on("click", ".profile-card", function () {
     var profileId = $(this).data('profileid');
     $('#page-content').load("sections/profile.html", function () {
-      initiateProfile(profileId);
+        $('.content-title').text("");
+    	initiateProfile(profileId);
     });
   });
 
   $(document).on("click", '#trn-back-button', function () {
     $('#page-content').load("sections/trainees.html", function () {
-      $('.content-title').text("");
+      $('.content-title').text("Trainees zeigen Gesicht");
       initiateTrainees();
     });
     $("#accordionSidebar .nav-item.active").removeClass("active");

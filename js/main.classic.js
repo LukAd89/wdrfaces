@@ -5,7 +5,7 @@ function initiateProfile(id) {
 
   $.getJSON('data/profiles.json', function (data) {
     profile_data = data[id];
-
+    
     $('.trn-name').text(profile_data.name);
     $('.trn-studies').text(profile_data.studies);
     $('.trn-stage').text(profile_data.stage);
@@ -16,6 +16,8 @@ function initiateProfile(id) {
     $('.trn-ptext').text(profile_data.ptext);
     $('.trn-picture').attr("src", profile_data.photosm);
     $('.trn-video').attr("src", profile_data.video);
+    
+    $('#page-top').scrollTop(0);
   });
 }
 

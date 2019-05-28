@@ -17,7 +17,7 @@ function initiateProfile(id) {
     $('.trn-picture').attr("src", profile_data.photosm);
     $('.trn-video').attr("src", profile_data.video);
     
-    $('#page-top').scrollTop(0);
+    window.scrollTo({top: 0});
   });
 }
 

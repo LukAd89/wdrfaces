@@ -323,8 +323,8 @@ function getLoesung() {
 function getRang() {
     switch (Punkte) {
 		case 0:
-			return "Praktikant/Praktikantin";
-			break;
+			      return "Praktikant/Praktikantin";
+			      break;
         case 1:
             return "studentische Hilfskraft";
             break;
@@ -332,22 +332,22 @@ function getRang() {
             return "studentische Hilfskraft";
             break;
 		case 3:
-            return "Gruppenleiter/Gruppenleiterin";
+            return "GruppenleiterIn";
             break;
         case 4:
-            return "Gruppenleiter/Gruppenleiterin";
+            return "GruppenleiterIn";
             break;
         case 5:
-            return "Abteilungsleiter/Abteilungsleiterin";
+            return "AbteilungsleiterIn";
             break;
 		case 6:
-            return "Abteilungsleiter/Abteilungsleiterin";
+            return "AbteilungsleiterIn";
             break;
         case 7:
-            return "Hauptabteilungsleiter /Hauptabteilungsleiterin";
+            return "HA-LeiterIn";
             break;
         case 8:
-            return "Hauptabteilungsleiter /Hauptabteilungsleiterin";
+            return "HA-LeiterIn";
             break;
 	    case 9:
             return "Direktor/Direktorin";

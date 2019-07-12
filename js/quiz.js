@@ -22,7 +22,7 @@ var Fragen = [
       "B":"500 qm",
       "C":"1200 qm",
     }, 
-    "Loesung":"Programmieren",
+    "Loesung":"1700 qm",
 	"Autor": "Manuel"
   },{
     "id":"2",
@@ -124,7 +124,8 @@ function start() {
   Punkte = 0;
   gegebeneAntwort = "";
   shuffle(Fragen);
-  $("#ende").hide(); 
+  $("#ende").hide();
+  $("#answer_commit_btn").hide();  
   writeHTML();
 };
 
@@ -142,6 +143,7 @@ function shuffle(a) {
 
 
 function writeHTML() {
+  $("#answer_commit_btn").hide();
   aktFrage = Fragen[aktFragenNr]; 
   //Frageninformation in HTML anzeigen
   $("#qno").text(aktFragenNr + 1+" von "+Fragen.length);
@@ -220,6 +222,7 @@ $("#answer_a_btn").click(function() {
   abwahlAntwort("#answer_b_btn");
   abwahlAntwort("#answer_c_btn");
   gegebeneAntwort = $("#answer_a").text();
+  $("#answer_commit_btn").fadeIn();
 
 });
 
@@ -228,7 +231,8 @@ $("#answer_b_btn").click(function() {
   abwahlAntwort("#answer_a_btn");
   auswahlAntwort("#answer_b_btn");
   abwahlAntwort("#answer_c_btn");
-  gegebeneAntwort = $("#answer_b").text();    
+  gegebeneAntwort = $("#answer_b").text();
+  $("#answer_commit_btn").fadeIn();  
 });
  
 //Auswahl Antwort C
@@ -237,6 +241,7 @@ $("#answer_c_btn").click(function() {
   abwahlAntwort("#answer_b_btn");
   auswahlAntwort("#answer_c_btn");
   gegebeneAntwort = $("#answer_c").text();
+  $("#answer_commit_btn").fadeIn();
 });
 
 //Antworten
@@ -289,7 +294,6 @@ function zeigenaechsteFrage() {
   if (aktFragenNr >= Fragen.length) {
     showEnd();
   } else {
-      $("#answer_commit_btn").fadeIn();
       writeHTML();
   }
 };
@@ -306,7 +310,6 @@ function showEnd() {
 $("#neustart_btn").click(function() {
   $("#ende").fadeOut(function() {
       $("#question").fadeIn();
-      $("#answer_commit_btn").fadeIn();
       einblendenButtons();
   });
   start();
@@ -320,43 +323,40 @@ function getLoesung() {
 function getRang() {
     switch (Punkte) {
 		case 0:
-			return "Besucher";
-			break;
+			      return "Praktikant/Praktikantin";
+			      break;
         case 1:
-            return "RTL-Mitarbeiter";
+            return "studentische Hilfskraft";
             break;
         case 2:
-            return "Sch\u00fcler-Praktikant";
+            return "studentische Hilfskraft";
             break;
 		case 3:
-            return "Azubi";
+            return "GruppenleiterIn";
             break;
         case 4:
-            return "Volo";
+            return "GruppenleiterIn";
             break;
         case 5:
-            return "Trainee";
+            return "AbteilungsleiterIn";
             break;
 		case 6:
-            return "Angestellter";
+            return "AbteilungsleiterIn";
             break;
         case 7:
-            return "Teamleiter";
+            return "HA-LeiterIn";
             break;
         case 8:
-            return "Gruppenleiter";
+            return "HA-LeiterIn";
             break;
-		case 9:
-            return "Abteilungsleiter";
+	    case 9:
+            return "Direktor/Direktorin";
             break;
-	    case 10:
-            return "Hauptabteilungsleiter";
-            break;
-		case 11:
-            return "Intendant";
+		case 10:
+            return "Intendant/Intendantin";
             break;
 	    default:
-            return "nicht der Rede wert";
+            return "";
     }
         
 }

@@ -5,7 +5,7 @@ function initiateProfile(id) {
 
   $.getJSON('data/profiles.json', function (data) {
     profile_data = data[id];
-
+    
     $('.trn-name').text(profile_data.name);
     $('.trn-studies').text(profile_data.studies);
     $('.trn-stage').text(profile_data.stage);
@@ -16,12 +16,14 @@ function initiateProfile(id) {
     $('.trn-ptext').text(profile_data.ptext);
     $('.trn-picture').attr("src", profile_data.photosm);
     $('.trn-video').attr("src", profile_data.video);
+    
+    window.scrollTo({top: 0});
   });
 }
 
 function initiateTrainees() {
+  $('.content-title').text("Die Trainees");
   var profile_data;
-
   $.getJSON('data/profiles.json', function (data) {
     profile_data = data;
     for (var i = 0; i < Object.keys(profile_data).length; i++) {
@@ -48,6 +50,7 @@ $(document).ready(function () {
       crossDomain: true,
       cache: false,
       success: function(html){
+        $('.content-title').text("Trainees zeigen Gesicht");
         $('#page-content').html(html);
         console.log("jo");
       },
@@ -69,6 +72,7 @@ $(document).ready(function () {
 
   $(document).on("click", '#nav-link-quiz', function () {
     $('#page-content').load("sections/quiz.html", function () {
+      $('.content-title').text("Quiz");
       $.getScript("js/quiz.js")
         .done(function (script, textStatus) {
           console.log(textStatus);
@@ -88,12 +92,14 @@ $(document).ready(function () {
   $(document).on("click", ".profile-card", function () {
     var profileId = $(this).data('profileid');
     $('#page-content').load("sections/profile.html", function () {
-      initiateProfile(profileId);
+        $('.content-title').text("");
+    	initiateProfile(profileId);
     });
   });
 
   $(document).on("click", '#trn-back-button', function () {
     $('#page-content').load("sections/trainees.html", function () {
+      $('.content-title').text("Trainees zeigen Gesicht");
       initiateTrainees();
     });
     $("#accordionSidebar .nav-item.active").removeClass("active");
